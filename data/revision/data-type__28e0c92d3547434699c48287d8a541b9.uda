@@ -1,0 +1,16 @@
+{
+  "EditorAlias": "Umbraco.RadioButtonList",
+  "DatabaseType": 2,
+  "PreValues": {
+    "0": "standard",
+    "1": "serif",
+    "2": "mono"
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/28e0c92d3547434699c48287d8a541b9",
+  "Dependencies": [],
+  "Name": "Home - Font - Radio button list",
+  "Alias": null,
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DataTypeArtifact",
+  "__version": "2.0.10"
+}

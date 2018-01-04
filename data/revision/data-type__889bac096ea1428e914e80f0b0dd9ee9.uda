@@ -1,0 +1,31 @@
+{
+  "EditorAlias": "Umbraco.Slider",
+  "DatabaseType": 1,
+  "PreValues": {
+    "enableRange": "",
+    "handle": "round",
+    "initVal1": "3",
+    "initVal2": "",
+    "maxVal": "20",
+    "minVal": "1",
+    "orientation": "horizontal",
+    "precision": "",
+    "reversed": "",
+    "step": "1",
+    "ticks": "",
+    "ticksLabels": "",
+    "ticksPositions": "",
+    "ticksSnapBounds": "",
+    "tooltip": "always",
+    "tooltipFormat": "",
+    "tooltipPosition": "",
+    "tooltipSplit": ""
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/889bac096ea1428e914e80f0b0dd9ee9",
+  "Dependencies": [],
+  "Name": "Blog - How many posts should be shown - Slider",
+  "Alias": null,
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DataTypeArtifact",
+  "__version": "2.0.10"
+}

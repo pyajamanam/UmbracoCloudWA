@@ -1,0 +1,14 @@
+{
+  "EditorAlias": "UmbracoForms.FormPicker",
+  "DatabaseType": 1,
+  "PreValues": {
+    "allowedForms": "[]"
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/c535b55f78dc48c5ac1852f47e6d09af",
+  "Dependencies": [],
+  "Name": "Contact - Pick a Contact Form - Form Picker",
+  "Alias": null,
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DataTypeArtifact",
+  "__version": "2.0.10"
+}

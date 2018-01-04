@@ -1,0 +1,18 @@
+{
+  "EditorAlias": "Umbraco.MultiNodeTreePicker2",
+  "DatabaseType": 0,
+  "PreValues": {
+    "filter": "",
+    "maxNumber": "9",
+    "minNumber": "1",
+    "showOpenButton": "1",
+    "startNode": "{\r\n  \"type\": \"content\",\r\n  \"id\": \"umb://document/5582ae2fefa8422fa9c97ff1c9e8dd85\"\r\n}"
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/dfab9a2767d34dbaac913a70f9faadfe",
+  "Dependencies": [],
+  "Name": "People - Featured People - Multinode Treepicker",
+  "Alias": null,
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DataTypeArtifact",
+  "__version": "2.0.10"
+}

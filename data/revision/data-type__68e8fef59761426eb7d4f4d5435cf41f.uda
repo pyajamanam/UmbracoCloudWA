@@ -1,0 +1,16 @@
+{
+  "EditorAlias": "Umbraco.Decimal",
+  "DatabaseType": 4,
+  "PreValues": {
+    "max": "",
+    "min": "",
+    "step": ""
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/68e8fef59761426eb7d4f4d5435cf41f",
+  "Dependencies": [],
+  "Name": "Product - Price - Decimal",
+  "Alias": null,
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DataTypeArtifact",
+  "__version": "2.0.10"
+}

@@ -1,0 +1,15 @@
+{
+  "EditorAlias": "Umbraco.Grid",
+  "DatabaseType": 0,
+  "PreValues": {
+    "items": "{\r\n  \"styles\": [],\r\n  \"config\": [],\r\n  \"columns\": 12,\r\n  \"templates\": [\r\n    {\r\n      \"name\": \"1 column layout\",\r\n      \"sections\": [\r\n        {\r\n          \"grid\": 12\r\n        }\r\n      ]\r\n    }\r\n  ],\r\n  \"layouts\": [\r\n    {\r\n      \"name\": \"Full Width\",\r\n      \"areas\": [\r\n        {\r\n          \"grid\": 12,\r\n          \"editors\": [\r\n            \"headline\"\r\n          ],\r\n          \"allowAll\": false,\r\n          \"allowed\": [\r\n            \"media\",\r\n            \"embed\",\r\n            \"headline\",\r\n            \"rte\",\r\n            \"macro\"\r\n          ]\r\n        }\r\n      ]\r\n    },\r\n    {\r\n      \"name\": \"Article\",\r\n      \"areas\": [\r\n        {\r\n          \"grid\": 4,\r\n          \"allowAll\": false,\r\n          \"allowed\": [\r\n            \"quote\",\r\n            \"embed\",\r\n            \"macro\",\r\n            \"media\",\r\n            \"rte\"\r\n          ]\r\n        },\r\n        {\r\n          \"grid\": 8,\r\n          \"allowAll\": false,\r\n          \"allowed\": [\r\n            \"rte\",\r\n            \"media\",\r\n            \"macro\",\r\n            \"embed\",\r\n            \"headline\",\r\n            \"quote\"\r\n          ]\r\n        }\r\n      ]\r\n    },\r\n    {\r\n      \"name\": \"Three Columns\",\r\n      \"areas\": [\r\n        {\r\n          \"grid\": 4,\r\n          \"allowAll\": true\r\n        },\r\n        {\r\n          \"grid\": 4\r\n        },\r\n        {\r\n          \"grid\": 4\r\n        }\r\n      ]\r\n    }\r\n  ]\r\n}",
+    "rte": "{\r\n  \"toolbar\": [\r\n    \"code\",\r\n    \"undo\",\r\n    \"redo\",\r\n    \"styleselect\",\r\n    \"bold\",\r\n    \"italic\",\r\n    \"strikethrough\",\r\n    \"alignleft\",\r\n    \"aligncenter\",\r\n    \"alignright\",\r\n    \"bullist\",\r\n    \"numlist\",\r\n    \"outdent\",\r\n    \"indent\",\r\n    \"link\",\r\n    \"table\"\r\n  ],\r\n  \"stylesheets\": [],\r\n  \"dimensions\": {\r\n    \"height\": 500\r\n  },\r\n  \"maxImageSize\": 500\r\n}"
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/1cd1f7c5f2ed4aa2ac7cfb2ab363a743",
+  "Dependencies": [],
+  "Name": "Content Base - Content - Grid layout",
+  "Alias": null,
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DataTypeArtifact",
+  "__version": "2.0.10"
+}

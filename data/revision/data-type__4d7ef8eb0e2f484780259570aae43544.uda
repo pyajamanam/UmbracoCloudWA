@@ -1,0 +1,17 @@
+{
+  "EditorAlias": "Umbraco.DropDown",
+  "DatabaseType": 1,
+  "PreValues": {
+    "0": "€",
+    "1": "£",
+    "2": "$",
+    "3": "DKK"
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/4d7ef8eb0e2f484780259570aae43544",
+  "Dependencies": [],
+  "Name": "Products - Default Currency - Dropdown list",
+  "Alias": null,
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DataTypeArtifact",
+  "__version": "2.0.10"
+}

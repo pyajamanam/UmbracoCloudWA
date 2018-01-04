@@ -1,0 +1,20 @@
+{
+  "EditorAlias": "Umbraco.ListView",
+  "DatabaseType": 1,
+  "PreValues": {
+    "bulkActionPermissions": "{\r\n  \"allowBulkPublish\": true,\r\n  \"allowBulkUnpublish\": true,\r\n  \"allowBulkCopy\": true,\r\n  \"allowBulkMove\": true,\r\n  \"allowBulkDelete\": true\r\n}",
+    "displayAtTabNumber": "1",
+    "includeProperties": "[\r\n  {\r\n    \"alias\": \"photos\",\r\n    \"isSystem\": 0,\r\n    \"header\": \"Photo\"\r\n  },\r\n  {\r\n    \"alias\": \"updateDate\",\r\n    \"header\": \"Last edited\",\r\n    \"isSystem\": 1\r\n  },\r\n  {\r\n    \"alias\": \"owner\",\r\n    \"header\": \"Created by\",\r\n    \"isSystem\": 1\r\n  }\r\n]",
+    "layouts": "[\r\n  {\r\n    \"name\": \"Grid\",\r\n    \"path\": \"views/propertyeditors/listview/layouts/grid/grid.html\",\r\n    \"icon\": \"icon-thumbnails-small\",\r\n    \"isSystem\": 1,\r\n    \"selected\": true\r\n  },\r\n  {\r\n    \"name\": \"List\",\r\n    \"path\": \"views/propertyeditors/listview/layouts/list/list.html\",\r\n    \"icon\": \"icon-list\",\r\n    \"isSystem\": 1,\r\n    \"selected\": true\r\n  }\r\n]",
+    "orderBy": "sortOrder",
+    "orderDirection": "asc",
+    "pageSize": "10"
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/ca547f1fe30a420a8e3b81b661cf0f49",
+  "Dependencies": [],
+  "Name": "List View - products",
+  "Alias": null,
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DataTypeArtifact",
+  "__version": "2.0.10"
+}

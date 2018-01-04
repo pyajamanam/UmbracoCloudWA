@@ -1,0 +1,16 @@
+{
+  "EditorAlias": "Umbraco.RadioButtonList",
+  "DatabaseType": 2,
+  "PreValues": {
+    "0": "water",
+    "1": "earth",
+    "2": "sun"
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/14f884bfe8f7481ba0ba88b132ab97e8",
+  "Dependencies": [],
+  "Name": "Home - Color Theme - Radio button list",
+  "Alias": null,
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DataTypeArtifact",
+  "__version": "2.0.10"
+}

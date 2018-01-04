@@ -1,0 +1,15 @@
+{
+  "EditorAlias": "Umbraco.ContentPicker2",
+  "DatabaseType": 1,
+  "PreValues": {
+    "showOpenButton": "0",
+    "startNodeId": "-1"
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/e449f1bd26644e0da7b8439196b96eda",
+  "Dependencies": [],
+  "Name": "Home - Call To Action Link - Content Picker",
+  "Alias": null,
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DataTypeArtifact",
+  "__version": "2.0.10"
+}

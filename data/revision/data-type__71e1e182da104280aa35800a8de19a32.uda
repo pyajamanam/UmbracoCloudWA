@@ -1,0 +1,15 @@
+{
+  "EditorAlias": "Umbraco.Tags",
+  "DatabaseType": 1,
+  "PreValues": {
+    "group": "department",
+    "storageType": "Csv"
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/71e1e182da104280aa35800a8de19a32",
+  "Dependencies": [],
+  "Name": "Employee - Department - Tags",
+  "Alias": null,
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DataTypeArtifact",
+  "__version": "2.0.10"
+}
