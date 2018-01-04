@@ -1,0 +1,79 @@
+{
+  "DefaultTemplate": null,
+  "AllowedTemplates": [],
+  "Icon": "icon-nodes",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "AllowedAtRoot": false,
+  "IsContainer": false,
+  "Parent": "umb://document-type-container/0561e2cf266843bca828a6eef4a92493",
+  "AllowedChildContentTypes": [],
+  "CompositionContentTypes": [],
+  "PropertyGroups": [
+    {
+      "Key": "8d13f7b3-0af8-4c43-a3df-8c1edc51f8a2",
+      "Name": "Navigation & SEO",
+      "SortOrder": 100,
+      "PropertyTypes": [
+        {
+          "Key": "2c6f4fee-24bf-4b4e-8a1f-8ed29ceaee3b",
+          "Alias": "keywords",
+          "DataType": "umb://data-type/b6b73142b9c14bf8a16de1c23320b549",
+          "Description": "Keywords that describe the content of the page. This is consired optional since most modern search engines don't use this anymore",
+          "Mandatory": false,
+          "Name": "Keywords",
+          "SortOrder": 3,
+          "Validation": null
+        },
+        {
+          "Key": "56e30cba-f811-4049-98d7-3d71b2b5c1aa",
+          "Alias": "umbracoNavihide",
+          "DataType": "umb://data-type/92897bc6a5f34ffeae27f2e7e33dda49",
+          "Description": "If you don't want this page to appear in the navigation, check this box",
+          "Mandatory": false,
+          "Name": "Hide in Navigation",
+          "SortOrder": 4,
+          "Validation": null
+        },
+        {
+          "Key": "c9c1d983-4552-4546-b7ac-6710e63a6dc2",
+          "Alias": "seoMetaDescription",
+          "DataType": "umb://data-type/c6bac0dd4ab945b18e30e4b619ee5da3",
+          "Description": "A brief description of the content on your page. This text is shown below the title in a google search result and also used for Social Sharing Cards. The ideal length is between 130 and 155 characters",
+          "Mandatory": false,
+          "Name": "Description",
+          "SortOrder": 1,
+          "Validation": null
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/dfb56e296b7e452abf85dda2bc271734",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/92897bc6a5f34ffeae27f2e7e33dda49",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/b6b73142b9c14bf8a16de1c23320b549",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/c6bac0dd4ab945b18e30e4b619ee5da3",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type-container/0561e2cf266843bca828a6eef4a92493",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "Name": "Navigation Base",
+  "Alias": "navigationBase",
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DocumentTypeArtifact",
+  "__version": "2.0.10"
+}

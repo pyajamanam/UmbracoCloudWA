@@ -1,0 +1,64 @@
+{
+  "DefaultTemplate": null,
+  "AllowedTemplates": [],
+  "Icon": "icon-document-dashed-line",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "AllowedAtRoot": false,
+  "IsContainer": false,
+  "Parent": "umb://document-type-container/0561e2cf266843bca828a6eef4a92493",
+  "AllowedChildContentTypes": [],
+  "CompositionContentTypes": [],
+  "PropertyGroups": [
+    {
+      "Key": "a92d159d-aa89-4bb2-9f96-f872d69d98d2",
+      "Name": "Content",
+      "SortOrder": 0,
+      "PropertyTypes": [
+        {
+          "Key": "5b325e58-fa4c-4e6b-9a00-0e862149fa85",
+          "Alias": "bodyText",
+          "DataType": "umb://data-type/1cd1f7c5f2ed4aa2ac7cfb2ab363a743",
+          "Description": null,
+          "Mandatory": false,
+          "Name": "Content",
+          "SortOrder": 1,
+          "Validation": null
+        },
+        {
+          "Key": "a2bd0f77-f411-4df9-84aa-466f0ee09418",
+          "Alias": "pageTitle",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": "The title of the page, this is also the first text in a google search result. The ideal length is between 40 and 60 characters",
+          "Mandatory": true,
+          "Name": "Page Title",
+          "SortOrder": 0,
+          "Validation": null
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/fddaaad6101b48c8bfb612542eb26f65",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/1cd1f7c5f2ed4aa2ac7cfb2ab363a743",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type-container/0561e2cf266843bca828a6eef4a92493",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "Name": "Content Base",
+  "Alias": "contentBase",
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DocumentTypeArtifact",
+  "__version": "2.0.10"
+}

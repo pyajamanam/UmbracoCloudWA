@@ -1,0 +1,103 @@
+{
+  "DefaultTemplate": "umb://template/fc870d4865db40d38415817e1c09b336",
+  "AllowedTemplates": [
+    "umb://template/fc870d4865db40d38415817e1c09b336"
+  ],
+  "Icon": "icon-calendar",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "AllowedAtRoot": false,
+  "IsContainer": false,
+  "Parent": null,
+  "AllowedChildContentTypes": [],
+  "CompositionContentTypes": [
+    "umb://document-type/dfb56e296b7e452abf85dda2bc271734"
+  ],
+  "PropertyGroups": [
+    {
+      "Key": "ffcbe0b9-514c-4917-a566-67836c141230",
+      "Name": "Content",
+      "SortOrder": 0,
+      "PropertyTypes": [
+        {
+          "Key": "a0b9bbd7-eb5a-4d75-9f7f-548436cdba3a",
+          "Alias": "categories",
+          "DataType": "umb://data-type/b6b73142b9c14bf8a16de1c23320b549",
+          "Description": null,
+          "Mandatory": false,
+          "Name": "Categories (tags)",
+          "SortOrder": 1,
+          "Validation": null
+        },
+        {
+          "Key": "b8bd2fd8-51ab-494f-88a5-7962fe072817",
+          "Alias": "excerpt",
+          "DataType": "umb://data-type/c6bac0dd4ab945b18e30e4b619ee5da3",
+          "Description": "Introduction to your blog post. This is also used in the summaries on the front of the blog as well as the homepage",
+          "Mandatory": true,
+          "Name": "Excerpt",
+          "SortOrder": 2,
+          "Validation": null
+        },
+        {
+          "Key": "c4cf1c8b-179b-4c5f-a316-171d41834d5e",
+          "Alias": "pageTitle",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": "The title of the page, this is also the first text in a google search result. The ideal length is between 40 and 60 characters",
+          "Mandatory": true,
+          "Name": "Page Title",
+          "SortOrder": 0,
+          "Validation": null
+        },
+        {
+          "Key": "ead04fb9-5474-469c-8a0e-5101859b4a4a",
+          "Alias": "bodyText",
+          "DataType": "umb://data-type/1cd1f7c5f2ed4aa2ac7cfb2ab363a743",
+          "Description": null,
+          "Mandatory": false,
+          "Name": "Content",
+          "SortOrder": 3,
+          "Validation": null
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/147302d075ba4813b3899c1c864e8c7e",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/1cd1f7c5f2ed4aa2ac7cfb2ab363a743",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/b6b73142b9c14bf8a16de1c23320b549",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/c6bac0dd4ab945b18e30e4b619ee5da3",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/dfb56e296b7e452abf85dda2bc271734",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://template/fc870d4865db40d38415817e1c09b336",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "Name": "Blogpost",
+  "Alias": "blogpost",
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DocumentTypeArtifact",
+  "__version": "2.0.10"
+}

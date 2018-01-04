@@ -1,0 +1,273 @@
+{
+  "DefaultTemplate": "umb://template/b8a882bccbc2482cb68ee42d0ace84d5",
+  "AllowedTemplates": [
+    "umb://template/b8a882bccbc2482cb68ee42d0ace84d5"
+  ],
+  "Icon": "icon-home",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "AllowedAtRoot": true,
+  "IsContainer": false,
+  "Parent": null,
+  "AllowedChildContentTypes": [
+    "umb://document-type/2a6cee76baed412dab84637141d381d7",
+    "umb://document-type/56505fb6557249edaa22bec45e9238c1",
+    "umb://document-type/65a9fec6e45846268009e53ea51a54aa",
+    "umb://document-type/90a7b703bbba4d3ab4f379215cd182a1",
+    "umb://document-type/ce3505a8d7bd45ca8f5d6cf16530de98"
+  ],
+  "CompositionContentTypes": [],
+  "PropertyGroups": [
+    {
+      "Key": "6c6bac4b-b77f-4bbe-9588-fcc9b98a0448",
+      "Name": "Hero",
+      "SortOrder": 0,
+      "PropertyTypes": [
+        {
+          "Key": "8a0779fd-f847-4bf0-8fea-879ab254423e",
+          "Alias": "heroDescription",
+          "DataType": "umb://data-type/c6bac0dd4ab945b18e30e4b619ee5da3",
+          "Description": "",
+          "Mandatory": true,
+          "Name": "Description",
+          "SortOrder": 1,
+          "Validation": null
+        },
+        {
+          "Key": "8f2bdecb-3197-4eef-b04c-3a2412f5a035",
+          "Alias": "HeroCtalink",
+          "DataType": "umb://data-type/e449f1bd26644e0da7b8439196b96eda",
+          "Description": null,
+          "Mandatory": true,
+          "Name": "Call To Action Link",
+          "SortOrder": 3,
+          "Validation": null
+        },
+        {
+          "Key": "ca901fef-57f9-4764-a6f2-76d728d97d04",
+          "Alias": "heroCTACaption",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": "The caption on the button",
+          "Mandatory": true,
+          "Name": "Call To Action Caption",
+          "SortOrder": 2,
+          "Validation": null
+        },
+        {
+          "Key": "ddc7d694-e4c2-4fda-9023-2486c1b2b74f",
+          "Alias": "heroHeader",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": "This is the main headline for the hero area on the Homepage",
+          "Mandatory": true,
+          "Name": "Header",
+          "SortOrder": 0,
+          "Validation": null
+        }
+      ]
+    },
+    {
+      "Key": "7b0b9975-b12c-4c0e-a130-5f708f75c72b",
+      "Name": "Content",
+      "SortOrder": 1,
+      "PropertyTypes": [
+        {
+          "Key": "f1b70532-7e81-47c3-85d6-d97ffb886182",
+          "Alias": "bodyText",
+          "DataType": "umb://data-type/f4084ca6fc6c40c7ab0e64888d7d869c",
+          "Description": null,
+          "Mandatory": false,
+          "Name": "Content",
+          "SortOrder": 0,
+          "Validation": null
+        }
+      ]
+    },
+    {
+      "Key": "c95c7976-2071-4f56-9d7f-d4c9bad07117",
+      "Name": "Design",
+      "SortOrder": 3,
+      "PropertyTypes": [
+        {
+          "Key": "0d92865c-259c-44df-b80d-b9ce7abfcde3",
+          "Alias": "SiteLogo",
+          "DataType": "umb://data-type/f5264d17afc14070a0b6c0b205890bfe",
+          "Description": "Optional. If you add a logo it'll be used in the upper left corner instead of the site name. Make sure to use a transparent logo for best results",
+          "Mandatory": false,
+          "Name": "Logo",
+          "SortOrder": 4,
+          "Validation": null
+        },
+        {
+          "Key": "3af84a76-c3d5-4da6-b149-d4b84b1c62f1",
+          "Alias": "sitename",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": "Used on the homepage as well as the title and social cards",
+          "Mandatory": true,
+          "Name": "Sitename",
+          "SortOrder": 3,
+          "Validation": null
+        },
+        {
+          "Key": "3b56cb0b-030b-4019-9af3-9f7698d63b69",
+          "Alias": "HeroBackgroundImage",
+          "DataType": "umb://data-type/f5264d17afc14070a0b6c0b205890bfe",
+          "Description": "Spice up the homepage by adding a beautiful photo that relates to your business",
+          "Mandatory": true,
+          "Name": "Hero Background",
+          "SortOrder": 0,
+          "Validation": null
+        },
+        {
+          "Key": "667d36ec-ed96-492c-b270-4227def3fa09",
+          "Alias": "font",
+          "DataType": "umb://data-type/28e0c92d3547434699c48287d8a541b9",
+          "Description": "This will be a custom property editor later",
+          "Mandatory": true,
+          "Name": "Font",
+          "SortOrder": 1,
+          "Validation": null
+        },
+        {
+          "Key": "9e5b0324-0384-4764-ab07-fd1452481de6",
+          "Alias": "colorTheme",
+          "DataType": "umb://data-type/14f884bfe8f7481ba0ba88b132ab97e8",
+          "Description": "This will be a custom property editor later",
+          "Mandatory": true,
+          "Name": "Color Theme",
+          "SortOrder": 2,
+          "Validation": null
+        }
+      ]
+    },
+    {
+      "Key": "fc6b9867-9d09-4dfe-94fb-2c07b6909a00",
+      "Name": "Footer",
+      "SortOrder": 2,
+      "PropertyTypes": [
+        {
+          "Key": "133b8883-c975-4aa6-8a0a-726a784fe1d6",
+          "Alias": "footerCTACaption",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": "Caption on the Call To Action Button",
+          "Mandatory": false,
+          "Name": "Call To Action Caption",
+          "SortOrder": 2,
+          "Validation": null
+        },
+        {
+          "Key": "91056ce0-5d22-46eb-8880-c0e1df760ba7",
+          "Alias": "footerAddress",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": null,
+          "Mandatory": true,
+          "Name": "Address",
+          "SortOrder": 4,
+          "Validation": null
+        },
+        {
+          "Key": "92d0c2bb-16a5-4b46-b2a3-d1e98fcc34c4",
+          "Alias": "FooterCtalink",
+          "DataType": "umb://data-type/e449f1bd26644e0da7b8439196b96eda",
+          "Description": null,
+          "Mandatory": true,
+          "Name": "Call To Action Link",
+          "SortOrder": 3,
+          "Validation": null
+        },
+        {
+          "Key": "d90430ed-9004-4895-a3cf-fa88c0d943a1",
+          "Alias": "footerDescription",
+          "DataType": "umb://data-type/c6bac0dd4ab945b18e30e4b619ee5da3",
+          "Description": null,
+          "Mandatory": false,
+          "Name": "Description",
+          "SortOrder": 1,
+          "Validation": null
+        },
+        {
+          "Key": "eb8a66e7-d400-4a95-89f3-4de7deb50db1",
+          "Alias": "footerHeader",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": null,
+          "Mandatory": false,
+          "Name": "Header",
+          "SortOrder": 0,
+          "Validation": null
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/42fec8d0b7bf40b0862a61d83bfcdb29",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/14f884bfe8f7481ba0ba88b132ab97e8",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/28e0c92d3547434699c48287d8a541b9",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/c6bac0dd4ab945b18e30e4b619ee5da3",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/e449f1bd26644e0da7b8439196b96eda",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/f4084ca6fc6c40c7ab0e64888d7d869c",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/f5264d17afc14070a0b6c0b205890bfe",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/2a6cee76baed412dab84637141d381d7",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/56505fb6557249edaa22bec45e9238c1",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/65a9fec6e45846268009e53ea51a54aa",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/90a7b703bbba4d3ab4f379215cd182a1",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/ce3505a8d7bd45ca8f5d6cf16530de98",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://template/b8a882bccbc2482cb68ee42d0ace84d5",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "Name": "Home",
+  "Alias": "home",
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DocumentTypeArtifact",
+  "__version": "2.0.10"
+}

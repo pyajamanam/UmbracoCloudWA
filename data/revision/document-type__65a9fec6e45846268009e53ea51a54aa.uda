@@ -1,0 +1,86 @@
+{
+  "DefaultTemplate": "umb://template/747703f01a16493fa0249b1eed81c534",
+  "AllowedTemplates": [
+    "umb://template/747703f01a16493fa0249b1eed81c534"
+  ],
+  "Icon": "icon-calendar-alt",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "AllowedAtRoot": false,
+  "IsContainer": true,
+  "Parent": null,
+  "AllowedChildContentTypes": [
+    "umb://document-type/147302d075ba4813b3899c1c864e8c7e"
+  ],
+  "CompositionContentTypes": [
+    "umb://document-type/dfb56e296b7e452abf85dda2bc271734",
+    "umb://document-type/fddaaad6101b48c8bfb612542eb26f65"
+  ],
+  "PropertyGroups": [
+    {
+      "Key": "2a37884d-a2c3-41ee-8901-063c8db01818",
+      "Name": "Settings",
+      "SortOrder": 0,
+      "PropertyTypes": [
+        {
+          "Key": "62dcfac1-9acf-4c9e-bde5-55355d53e083",
+          "Alias": "disqusShortname",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": "To use comments, you'll need to sign up for Disqus and enter your shortname here (more info: https://help.disqus.com/customer/portal/articles/472097-universal-embed-code)",
+          "Mandatory": false,
+          "Name": "Disqus Shortname",
+          "SortOrder": 1,
+          "Validation": null
+        },
+        {
+          "Key": "a4c446af-1fc5-4489-aaf6-14a9c006e782",
+          "Alias": "howManyPostsShouldBeShown",
+          "DataType": "umb://data-type/889bac096ea1428e914e80f0b0dd9ee9",
+          "Description": null,
+          "Mandatory": true,
+          "Name": "How many posts should be shown?",
+          "SortOrder": 0,
+          "Validation": null
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/65a9fec6e45846268009e53ea51a54aa",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/889bac096ea1428e914e80f0b0dd9ee9",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/147302d075ba4813b3899c1c864e8c7e",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/dfb56e296b7e452abf85dda2bc271734",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/fddaaad6101b48c8bfb612542eb26f65",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://template/747703f01a16493fa0249b1eed81c534",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "Name": "Blog",
+  "Alias": "blog",
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DocumentTypeArtifact",
+  "__version": "2.0.10"
+}
