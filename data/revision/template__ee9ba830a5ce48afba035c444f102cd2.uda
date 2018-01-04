@@ -1,0 +1,16 @@
+{
+  "File": "umb://template-file/Products.cshtml",
+  "Master": null,
+  "Udi": "umb://template/ee9ba830a5ce48afba035c444f102cd2",
+  "Dependencies": [
+    {
+      "Udi": "umb://template-file/Products.cshtml",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "Name": "Products",
+  "Alias": "Products",
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.TemplateArtifact",
+  "__version": "2.0.10"
+}

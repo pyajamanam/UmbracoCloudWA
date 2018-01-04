@@ -1,0 +1,16 @@
+{
+  "File": "umb://template-file/Contact.cshtml",
+  "Master": null,
+  "Udi": "umb://template/35950c50df444252996e828db1743dd0",
+  "Dependencies": [
+    {
+      "Udi": "umb://template-file/Contact.cshtml",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "Name": "Contact",
+  "Alias": "Contact",
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.TemplateArtifact",
+  "__version": "2.0.10"
+}
