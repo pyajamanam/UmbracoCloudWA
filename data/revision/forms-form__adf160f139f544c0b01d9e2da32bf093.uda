@@ -1,0 +1,163 @@
+{
+  "Alias": "Contact Form",
+  "Created": "2018-01-04T10:38:22.3892169+00:00",
+  "Pages": [
+    {
+      "FieldSets": [
+        {
+          "Caption": null,
+          "SortOrder": 0,
+          "Id": "2c2a56bd-0bd0-4323-ac09-992f02dbb9d5",
+          "Page": "00000000-0000-0000-0000-000000000000",
+          "Containers": [
+            {
+              "Caption": null,
+              "Width": 12,
+              "Fields": [
+                {
+                  "Caption": "Name",
+                  "ToolTip": null,
+                  "Placeholder": null,
+                  "CssClass": null,
+                  "Alias": "name",
+                  "Id": "2d86134a-ca01-4da7-c720-bf48fce8b79e",
+                  "FieldTypeId": "3f92e01b-29e2-4a30-bf33-9df5580ed52c",
+                  "PreValueSourceId": "00000000-0000-0000-0000-000000000000",
+                  "DataSourceFieldKey": null,
+                  "Mandatory": true,
+                  "RegEx": null,
+                  "RequiredErrorMessage": "Please leave your name",
+                  "InvalidErrorMessage": null,
+                  "Condition": {
+                    "Id": "00000000-0000-0000-0000-000000000000",
+                    "Enabled": false,
+                    "ActionType": 0,
+                    "LogicType": 0,
+                    "Rules": []
+                  },
+                  "Settings": {
+                    "DefaultValue": "",
+                    "Placeholder": ""
+                  },
+                  "PreValues": []
+                },
+                {
+                  "Caption": "Email",
+                  "ToolTip": null,
+                  "Placeholder": null,
+                  "CssClass": null,
+                  "Alias": "email",
+                  "Id": "eae61cf1-01da-4da6-f9c6-df56b0aba741",
+                  "FieldTypeId": "3f92e01b-29e2-4a30-bf33-9df5580ed52c",
+                  "PreValueSourceId": "00000000-0000-0000-0000-000000000000",
+                  "DataSourceFieldKey": null,
+                  "Mandatory": true,
+                  "RegEx": "[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+.[a-zA-Z0-9-.]+",
+                  "RequiredErrorMessage": "Please enter your e-mail",
+                  "InvalidErrorMessage": "Please enter a valid e-mail",
+                  "Condition": {
+                    "Id": "00000000-0000-0000-0000-000000000000",
+                    "Enabled": false,
+                    "ActionType": 0,
+                    "LogicType": 0,
+                    "Rules": []
+                  },
+                  "Settings": {
+                    "DefaultValue": "",
+                    "Placeholder": ""
+                  },
+                  "PreValues": []
+                },
+                {
+                  "Caption": "Phone Number",
+                  "ToolTip": null,
+                  "Placeholder": null,
+                  "CssClass": null,
+                  "Alias": "phoneNumber",
+                  "Id": "21550c3d-769d-4700-8db0-f30cd95e0a95",
+                  "FieldTypeId": "3f92e01b-29e2-4a30-bf33-9df5580ed52c",
+                  "PreValueSourceId": "00000000-0000-0000-0000-000000000000",
+                  "DataSourceFieldKey": null,
+                  "Mandatory": true,
+                  "RegEx": null,
+                  "RequiredErrorMessage": "Please enter a phone number",
+                  "InvalidErrorMessage": null,
+                  "Condition": {
+                    "Id": "00000000-0000-0000-0000-000000000000",
+                    "Enabled": false,
+                    "ActionType": 0,
+                    "LogicType": 0,
+                    "Rules": []
+                  },
+                  "Settings": {
+                    "DefaultValue": "",
+                    "Placeholder": ""
+                  },
+                  "PreValues": []
+                },
+                {
+                  "Caption": "Message",
+                  "ToolTip": null,
+                  "Placeholder": null,
+                  "CssClass": null,
+                  "Alias": "message",
+                  "Id": "ec9abce4-e339-45a3-f143-6ba81f5b8c1d",
+                  "FieldTypeId": "023f09ac-1445-4bcb-b8fa-ab49f33bd046",
+                  "PreValueSourceId": "00000000-0000-0000-0000-000000000000",
+                  "DataSourceFieldKey": null,
+                  "Mandatory": true,
+                  "RegEx": null,
+                  "RequiredErrorMessage": "Please enter a message",
+                  "InvalidErrorMessage": null,
+                  "Condition": {
+                    "Id": "00000000-0000-0000-0000-000000000000",
+                    "Enabled": false,
+                    "ActionType": 0,
+                    "LogicType": 0,
+                    "Rules": []
+                  },
+                  "Settings": {
+                    "DefaultValue": "",
+                    "Placeholder": ""
+                  },
+                  "PreValues": []
+                }
+              ]
+            }
+          ],
+          "Condition": null
+        }
+      ],
+      "Caption": null,
+      "SortOrder": 0,
+      "Id": "00000000-0000-0000-0000-000000000000",
+      "Form": "00000000-0000-0000-0000-000000000000"
+    }
+  ],
+  "Id": "adf160f1-39f5-44c0-b01d-9e2da32bf093",
+  "FieldIndicationType": 1,
+  "Indicator": "*",
+  "ShowValidationSummary": false,
+  "HideFieldValidation": false,
+  "RequiredErrorMessage": "Please provide a value for {0}",
+  "InvalidErrorMessage": "Please provide a valid value for {0}",
+  "MessageOnSubmit": "Thank you",
+  "GoToPageOnSubmit": null,
+  "XPathOnSubmit": null,
+  "ManualApproval": false,
+  "StoreRecordsLocally": true,
+  "CssClass": null,
+  "DisableDefaultStylesheet": false,
+  "UseClientDependency": false,
+  "WorkflowIds": [],
+  "DataSource": null,
+  "SubmitLabel": "Send Message",
+  "NextLabel": "Next",
+  "PrevLabel": "Previous",
+  "Workflows": null,
+  "Udi": "umb://forms-form/adf160f139f544c0b01d9e2da32bf093",
+  "Dependencies": [],
+  "Name": "Contact Form",
+  "__type": "Umbraco.Deploy.Forms,Umbraco.Deploy.Forms.Artifacts.FormArtifact",
+  "__version": "2.0.10"
+}
